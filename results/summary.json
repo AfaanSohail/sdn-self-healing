@@ -1,0 +1,722 @@
+[
+  {
+    "topology": 12,
+    "method": "A1_no_diagnosis",
+    "episodes": 630,
+    "sla_burden": 0.01645502645502642,
+    "capped_unrecovered_seconds": 2.1809523809523808,
+    "restored": 0.9984126984126984,
+    "collateral_burden": 0.002328042328042322,
+    "harmful": 0.07142857142857142,
+    "blocked": 1.9603174603174602,
+    "route_changes": 2.1365079365079365,
+    "decision_p95_ms": 5.4233672697578115,
+    "shap_p50_ms": 0.8806136627030687,
+    "false_alarm_events": 0.01904761904761905,
+    "unnecessary_changes": 0.01904761904761905,
+    "localisation_unconditional_t65": 0.2841269841269841,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.27936507936507937,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.014109347442680739,
+      0.019021164021163984
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      1.9539682539682537,
+      2.4476190476190474
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 5.0
+  },
+  {
+    "topology": 12,
+    "method": "A2_no_shield",
+    "episodes": 630,
+    "sla_burden": 0.020617283950617248,
+    "capped_unrecovered_seconds": 2.7,
+    "restored": 0.9936507936507937,
+    "collateral_burden": 0.0035846560846560776,
+    "harmful": 0.25555555555555554,
+    "blocked": 0.0,
+    "route_changes": 3.6222222222222222,
+    "decision_p95_ms": 5.410909397857365,
+    "shap_p50_ms": 0.8738495650813353,
+    "false_alarm_events": 0.03015873015873016,
+    "unnecessary_changes": 0.031746031746031744,
+    "localisation_unconditional_t65": 0.38571428571428573,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.3738095238095238,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.016834215167548468,
+      0.024594356261022892
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      2.0428571428571427,
+      3.5936904761904755
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 6.0
+  },
+  {
+    "topology": 12,
+    "method": "A4_predictive",
+    "episodes": 630,
+    "sla_burden": 0.02172839506172836,
+    "capped_unrecovered_seconds": 2.268253968253968,
+    "restored": 0.9984126984126984,
+    "collateral_burden": 0.006375661375661369,
+    "harmful": 0.8222222222222222,
+    "blocked": 6.698412698412699,
+    "route_changes": 10.776190476190477,
+    "decision_p95_ms": 5.614851799125698,
+    "shap_p50_ms": 0.8653124801585796,
+    "false_alarm_events": 4.2365079365079366,
+    "unnecessary_changes": 5.307936507936508,
+    "localisation_unconditional_t65": 0.5190476190476191,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.5111111111111111,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.014382716049382682,
+      0.03112014991181654
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      1.7761507936507939,
+      2.9095238095238094
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 6.0
+  },
+  {
+    "topology": 12,
+    "method": "A5_no_topology",
+    "episodes": 630,
+    "sla_burden": 0.0179717813051146,
+    "capped_unrecovered_seconds": 2.3682539682539683,
+    "restored": 0.9984126984126984,
+    "collateral_burden": 0.003558201058201051,
+    "harmful": 0.16825396825396827,
+    "blocked": 3.8285714285714287,
+    "route_changes": 3.041269841269841,
+    "decision_p95_ms": 5.471048873013936,
+    "shap_p50_ms": 0.8138390793683068,
+    "false_alarm_events": 0.06666666666666667,
+    "unnecessary_changes": 0.0873015873015873,
+    "localisation_unconditional_t65": 0.9682539682539683,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.9436507936507936,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.015229276895943528,
+      0.02097905643738973
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      2.077777777777778,
+      2.7222222222222223
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 6.0
+  },
+  {
+    "topology": 12,
+    "method": "A6_no_SHAP",
+    "episodes": 630,
+    "sla_burden": 0.020961199294532593,
+    "capped_unrecovered_seconds": 2.458730158730159,
+    "restored": 0.9984126984126984,
+    "collateral_burden": 0.003955026455026449,
+    "harmful": 0.10634920634920635,
+    "blocked": 2.265079365079365,
+    "route_changes": 2.2825396825396824,
+    "decision_p95_ms": 4.5587424580920315,
+    "shap_p50_ms": 0.0,
+    "false_alarm_events": 0.044444444444444446,
+    "unnecessary_changes": 0.049206349206349205,
+    "localisation_unconditional_t65": 0.34285714285714286,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.3349206349206349,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.01574955908289238,
+      0.02727513227513224
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      2.0936507936507938,
+      2.857142857142857
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 7.0
+  },
+  {
+    "topology": 12,
+    "method": "B0_no_recovery",
+    "episodes": 630,
+    "sla_burden": 0.4679982363315697,
+    "capped_unrecovered_seconds": 59.23809523809524,
+    "restored": 0.012698412698412698,
+    "collateral_burden": 0.0013359788359788318,
+    "harmful": 0.0,
+    "blocked": 0.0,
+    "route_changes": 0.0,
+    "decision_p95_ms": 0.0,
+    "shap_p50_ms": 0.0,
+    "false_alarm_events": 0.0,
+    "unnecessary_changes": 0.0,
+    "localisation_unconditional_t65": 0.0,
+    "localisation_conditional_t65": null,
+    "label_jaccard_t65": 0.0,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.4676366843033509,
+      0.46835978835978836
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      58.57142857142857,
+      59.80952380952381
+    ],
+    "conditional_restoration_median": 0.0,
+    "conditional_restoration_p95": 0.0
+  },
+  {
+    "topology": 12,
+    "method": "B1_rule",
+    "episodes": 630,
+    "sla_burden": 0.01313932980599644,
+    "capped_unrecovered_seconds": 1.9190476190476191,
+    "restored": 0.9984126984126984,
+    "collateral_burden": 0.001296296296296292,
+    "harmful": 0.03492063492063492,
+    "blocked": 0.0,
+    "route_changes": 1.5507936507936508,
+    "decision_p95_ms": 1.667632626272099,
+    "shap_p50_ms": 0.0,
+    "false_alarm_events": 0.026984126984126985,
+    "unnecessary_changes": 0.026984126984126985,
+    "localisation_unconditional_t65": 0.0,
+    "localisation_conditional_t65": 0.0,
+    "label_jaccard_t65": 0.0,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.012248677248677214,
+      0.014603174603174568
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      1.741269841269841,
+      2.2095238095238097
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 2.6000000000000227
+  },
+  {
+    "topology": 12,
+    "method": "B2_greedy",
+    "episodes": 630,
+    "sla_burden": 0.012601410934744232,
+    "capped_unrecovered_seconds": 1.8285714285714285,
+    "restored": 0.9984126984126984,
+    "collateral_burden": 0.0013492063492063443,
+    "harmful": 0.04126984126984127,
+    "blocked": 0.0,
+    "route_changes": 2.2,
+    "decision_p95_ms": 6.078244098888454,
+    "shap_p50_ms": 0.8726349293601021,
+    "false_alarm_events": 0.01746031746031746,
+    "unnecessary_changes": 0.01746031746031746,
+    "localisation_unconditional_t65": 0.06190476190476191,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.06111111111111111,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.011737213403880033,
+      0.013994708994708959
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      1.6634920634920634,
+      2.1206349206349207
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 2.0
+  },
+  {
+    "topology": 12,
+    "method": "B3_GA",
+    "episodes": 630,
+    "sla_burden": 0.012601410934744232,
+    "capped_unrecovered_seconds": 1.8285714285714285,
+    "restored": 0.9984126984126984,
+    "collateral_burden": 0.0013492063492063443,
+    "harmful": 0.04126984126984127,
+    "blocked": 0.0,
+    "route_changes": 2.2,
+    "decision_p95_ms": 6.966014679681047,
+    "shap_p50_ms": 0.8766764222225484,
+    "false_alarm_events": 0.01746031746031746,
+    "unnecessary_changes": 0.01746031746031746,
+    "localisation_unconditional_t65": 0.06190476190476191,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.06111111111111111,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.011737213403880033,
+      0.013994708994708959
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      1.6634920634920634,
+      2.1206349206349207
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 2.0
+  },
+  {
+    "topology": 12,
+    "method": "B4_PSO",
+    "episodes": 630,
+    "sla_burden": 0.012601410934744232,
+    "capped_unrecovered_seconds": 1.8285714285714285,
+    "restored": 0.9984126984126984,
+    "collateral_burden": 0.0013492063492063443,
+    "harmful": 0.04126984126984127,
+    "blocked": 0.0,
+    "route_changes": 2.2,
+    "decision_p95_ms": 6.525691083726639,
+    "shap_p50_ms": 0.8731369833367714,
+    "false_alarm_events": 0.01746031746031746,
+    "unnecessary_changes": 0.01746031746031746,
+    "localisation_unconditional_t65": 0.06190476190476191,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.06111111111111111,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.011737213403880033,
+      0.013994708994708959
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      1.6634920634920634,
+      2.1206349206349207
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 2.0
+  },
+  {
+    "topology": 12,
+    "method": "Full_DQN",
+    "episodes": 630,
+    "sla_burden": 0.020961199294532593,
+    "capped_unrecovered_seconds": 2.458730158730159,
+    "restored": 0.9984126984126984,
+    "collateral_burden": 0.003955026455026449,
+    "harmful": 0.10634920634920635,
+    "blocked": 2.265079365079365,
+    "route_changes": 2.2825396825396824,
+    "decision_p95_ms": 5.426458507618965,
+    "shap_p50_ms": 0.8687675412710676,
+    "false_alarm_events": 0.044444444444444446,
+    "unnecessary_changes": 0.049206349206349205,
+    "localisation_unconditional_t65": 0.34285714285714286,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.3349206349206349,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.01574955908289238,
+      0.02727513227513224
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      2.0936507936507938,
+      2.857142857142857
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 7.0
+  },
+  {
+    "topology": 12,
+    "method": "Oracle",
+    "episodes": 630,
+    "sla_burden": 0.021313932980599613,
+    "capped_unrecovered_seconds": 2.496825396825397,
+    "restored": 0.9968253968253968,
+    "collateral_burden": 0.003928571428571423,
+    "harmful": 0.10476190476190476,
+    "blocked": 2.306349206349206,
+    "route_changes": 2.3,
+    "decision_p95_ms": 5.272785373967891,
+    "shap_p50_ms": 0.8586962634933029,
+    "false_alarm_events": 0.05396825396825397,
+    "unnecessary_changes": 0.05396825396825397,
+    "localisation_unconditional_t65": 0.3412698412698413,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.3341269841269841,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.015758377425044056,
+      0.027954365079365037
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      2.090436507936508,
+      2.9841269841269837
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 7.0
+  },
+  {
+    "topology": 20,
+    "method": "A1_no_diagnosis",
+    "episodes": 630,
+    "sla_burden": 0.01768077601410931,
+    "capped_unrecovered_seconds": 2.580952380952381,
+    "restored": 0.9920634920634921,
+    "collateral_burden": 0.0022222222222222157,
+    "harmful": 0.09841269841269841,
+    "blocked": 2.0952380952380953,
+    "route_changes": 2.1523809523809523,
+    "decision_p95_ms": 6.5143714249227065,
+    "shap_p50_ms": 0.8801667452389882,
+    "false_alarm_events": 0.026984126984126985,
+    "unnecessary_changes": 0.025396825396825397,
+    "localisation_unconditional_t65": 0.3126984126984127,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.3097883597883598,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.015149911816578446,
+      0.02042350088183418
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      2.163492063492064,
+      3.0682539682539685
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 5.0
+  },
+  {
+    "topology": 20,
+    "method": "A2_no_shield",
+    "episodes": 630,
+    "sla_burden": 0.02231040564373894,
+    "capped_unrecovered_seconds": 3.215873015873016,
+    "restored": 0.9841269841269841,
+    "collateral_burden": 0.002685185185185179,
+    "harmful": 0.24444444444444444,
+    "blocked": 0.0,
+    "route_changes": 3.5396825396825395,
+    "decision_p95_ms": 6.593286921659795,
+    "shap_p50_ms": 0.889717674601978,
+    "false_alarm_events": 0.047619047619047616,
+    "unnecessary_changes": 0.049206349206349205,
+    "localisation_unconditional_t65": 0.3952380952380952,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.3880952380952381,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.01681613756613753,
+      0.02986794532627862
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      2.249206349206349,
+      4.565119047619047
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 6.0
+  },
+  {
+    "topology": 20,
+    "method": "A4_predictive",
+    "episodes": 630,
+    "sla_burden": 0.019744268077601376,
+    "capped_unrecovered_seconds": 2.503174603174603,
+    "restored": 0.9920634920634921,
+    "collateral_burden": 0.0035978835978835912,
+    "harmful": 0.6777777777777778,
+    "blocked": 6.450793650793651,
+    "route_changes": 11.10952380952381,
+    "decision_p95_ms": 7.1088142026993975,
+    "shap_p50_ms": 0.8841914238112781,
+    "false_alarm_events": 3.9158730158730157,
+    "unnecessary_changes": 5.749206349206349,
+    "localisation_unconditional_t65": 0.5285714285714286,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.5166666666666667,
+    "unknown_t65": 0.004761904761904762,
+    "sla_burden_CI95": [
+      0.01565255731922395,
+      0.02391534391534388
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      2.0650793650793653,
+      2.9667063492063486
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 6.0
+  },
+  {
+    "topology": 20,
+    "method": "A5_no_topology",
+    "episodes": 630,
+    "sla_burden": 0.019065255731922363,
+    "capped_unrecovered_seconds": 2.734920634920635,
+    "restored": 0.9920634920634921,
+    "collateral_burden": 0.002341269841269836,
+    "harmful": 0.18095238095238095,
+    "blocked": 3.6666666666666665,
+    "route_changes": 2.9095238095238094,
+    "decision_p95_ms": 6.828922310478916,
+    "shap_p50_ms": 0.8343409428572981,
+    "false_alarm_events": 0.07142857142857142,
+    "unnecessary_changes": 0.08571428571428572,
+    "localisation_unconditional_t65": 0.9619047619047619,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.9386243386243387,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.0161022927689594,
+      0.0226457231040564
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      2.285714285714286,
+      3.287341269841269
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 7.0
+  },
+  {
+    "topology": 20,
+    "method": "A6_no_SHAP",
+    "episodes": 630,
+    "sla_burden": 0.0193033509700176,
+    "capped_unrecovered_seconds": 2.742857142857143,
+    "restored": 0.9920634920634921,
+    "collateral_burden": 0.0024603174603174544,
+    "harmful": 0.10634920634920635,
+    "blocked": 2.1634920634920634,
+    "route_changes": 2.1809523809523808,
+    "decision_p95_ms": 5.482991344052004,
+    "shap_p50_ms": 0.0,
+    "false_alarm_events": 0.03968253968253968,
+    "unnecessary_changes": 0.0380952380952381,
+    "localisation_unconditional_t65": 0.35873015873015873,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.3523809523809524,
+    "unknown_t65": 0.0015873015873015873,
+    "sla_burden_CI95": [
+      0.016366843033509666,
+      0.022416225749559045
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      2.3285714285714283,
+      3.1746428571428567
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 6.0
+  },
+  {
+    "topology": 20,
+    "method": "B0_no_recovery",
+    "episodes": 630,
+    "sla_burden": 0.46788359788359796,
+    "capped_unrecovered_seconds": 58.857142857142854,
+    "restored": 0.01904761904761905,
+    "collateral_burden": 0.001547619047619042,
+    "harmful": 0.0,
+    "blocked": 0.0,
+    "route_changes": 0.0,
+    "decision_p95_ms": 0.0,
+    "shap_p50_ms": 0.0,
+    "false_alarm_events": 0.0,
+    "unnecessary_changes": 0.0,
+    "localisation_unconditional_t65": 0.0,
+    "localisation_conditional_t65": null,
+    "label_jaccard_t65": 0.0,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.4675044091710758,
+      0.4682451499118166
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      58.28571428571429,
+      59.333333333333336
+    ],
+    "conditional_restoration_median": 0.0,
+    "conditional_restoration_p95": 0.0
+  },
+  {
+    "topology": 20,
+    "method": "B1_rule",
+    "episodes": 630,
+    "sla_burden": 0.014453262786596087,
+    "capped_unrecovered_seconds": 2.146031746031746,
+    "restored": 0.9936507936507937,
+    "collateral_burden": 0.0017460317460317408,
+    "harmful": 0.07301587301587302,
+    "blocked": 0.0,
+    "route_changes": 1.646031746031746,
+    "decision_p95_ms": 2.1173130149151573,
+    "shap_p50_ms": 0.0,
+    "false_alarm_events": 0.025396825396825397,
+    "unnecessary_changes": 0.026984126984126985,
+    "localisation_unconditional_t65": 0.0,
+    "localisation_conditional_t65": 0.0,
+    "label_jaccard_t65": 0.0,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.01266313932980596,
+      0.01686948853615517
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      1.7555555555555558,
+      2.6651587301587294
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 3.0
+  },
+  {
+    "topology": 20,
+    "method": "B2_greedy",
+    "episodes": 630,
+    "sla_burden": 0.013562610229276859,
+    "capped_unrecovered_seconds": 2.0444444444444443,
+    "restored": 0.9936507936507937,
+    "collateral_burden": 0.0015873015873015819,
+    "harmful": 0.08253968253968254,
+    "blocked": 0.0,
+    "route_changes": 2.219047619047619,
+    "decision_p95_ms": 6.7994539921414985,
+    "shap_p50_ms": 0.8899133126970045,
+    "false_alarm_events": 0.022222222222222223,
+    "unnecessary_changes": 0.022222222222222223,
+    "localisation_unconditional_t65": 0.05396825396825397,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.05396825396825397,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.011904761904761866,
+      0.015802469135802435
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      1.6666666666666667,
+      2.5428571428571427
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 2.0
+  },
+  {
+    "topology": 20,
+    "method": "B3_GA",
+    "episodes": 630,
+    "sla_burden": 0.013562610229276859,
+    "capped_unrecovered_seconds": 2.0444444444444443,
+    "restored": 0.9936507936507937,
+    "collateral_burden": 0.0015873015873015819,
+    "harmful": 0.08253968253968254,
+    "blocked": 0.0,
+    "route_changes": 2.219047619047619,
+    "decision_p95_ms": 8.254924294771557,
+    "shap_p50_ms": 0.8858422896842346,
+    "false_alarm_events": 0.022222222222222223,
+    "unnecessary_changes": 0.022222222222222223,
+    "localisation_unconditional_t65": 0.05396825396825397,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.05396825396825397,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.011904761904761866,
+      0.015802469135802435
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      1.6666666666666667,
+      2.5428571428571427
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 2.0
+  },
+  {
+    "topology": 20,
+    "method": "B4_PSO",
+    "episodes": 630,
+    "sla_burden": 0.013562610229276859,
+    "capped_unrecovered_seconds": 2.0444444444444443,
+    "restored": 0.9936507936507937,
+    "collateral_burden": 0.0015873015873015819,
+    "harmful": 0.08253968253968254,
+    "blocked": 0.0,
+    "route_changes": 2.219047619047619,
+    "decision_p95_ms": 7.940232008653537,
+    "shap_p50_ms": 0.8897792071459821,
+    "false_alarm_events": 0.022222222222222223,
+    "unnecessary_changes": 0.022222222222222223,
+    "localisation_unconditional_t65": 0.05396825396825397,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.05396825396825397,
+    "unknown_t65": 0.0,
+    "sla_burden_CI95": [
+      0.011904761904761866,
+      0.015802469135802435
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      1.6666666666666667,
+      2.5428571428571427
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 2.0
+  },
+  {
+    "topology": 20,
+    "method": "Full_DQN",
+    "episodes": 630,
+    "sla_burden": 0.0193033509700176,
+    "capped_unrecovered_seconds": 2.742857142857143,
+    "restored": 0.9920634920634921,
+    "collateral_burden": 0.0024603174603174544,
+    "harmful": 0.10634920634920635,
+    "blocked": 2.1634920634920634,
+    "route_changes": 2.1809523809523808,
+    "decision_p95_ms": 6.8497081688063925,
+    "shap_p50_ms": 0.8992940682554988,
+    "false_alarm_events": 0.03968253968253968,
+    "unnecessary_changes": 0.0380952380952381,
+    "localisation_unconditional_t65": 0.35873015873015873,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.3523809523809524,
+    "unknown_t65": 0.0015873015873015873,
+    "sla_burden_CI95": [
+      0.016366843033509666,
+      0.022416225749559045
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      2.3285714285714283,
+      3.1746428571428567
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 6.0
+  },
+  {
+    "topology": 20,
+    "method": "Oracle",
+    "episodes": 630,
+    "sla_burden": 0.018915343915343878,
+    "capped_unrecovered_seconds": 2.7111111111111112,
+    "restored": 0.9920634920634921,
+    "collateral_burden": 0.002314814814814809,
+    "harmful": 0.10158730158730159,
+    "blocked": 2.16031746031746,
+    "route_changes": 2.168253968253968,
+    "decision_p95_ms": 6.625319823420158,
+    "shap_p50_ms": 0.8816931484162408,
+    "false_alarm_events": 0.03968253968253968,
+    "unnecessary_changes": 0.0380952380952381,
+    "localisation_unconditional_t65": 0.353968253968254,
+    "localisation_conditional_t65": 1.0,
+    "label_jaccard_t65": 0.3476190476190476,
+    "unknown_t65": 0.0015873015873015873,
+    "sla_burden_CI95": [
+      0.01633134920634917,
+      0.02150793650793647
+    ],
+    "capped_unrecovered_seconds_CI95": [
+      2.3238095238095235,
+      3.1238095238095234
+    ],
+    "conditional_restoration_median": 2.0,
+    "conditional_restoration_p95": 6.0
+  }
+]

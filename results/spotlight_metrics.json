@@ -1,0 +1,116 @@
+{
+  "source": "https://github.com/netsys-edinburgh/SpotLight/tree/main/sample",
+  "scope": "Official sample only; platform KPIs, single trace; NOT full SpotLight or RANGAN replication",
+  "raw_rows": 3235,
+  "retained_rows": 1515,
+  "invalid_header_rows": 1,
+  "window_samples": 5,
+  "gap_samples": 10,
+  "numeric_features": 246,
+  "split_counts": {
+    "train": {
+      "rows": 909,
+      "positive": 58,
+      "first": "2024-02-15 05:30:44.805686",
+      "last": "2024-02-15 05:35:41.404055"
+    },
+    "validation": {
+      "rows": 293,
+      "positive": 29,
+      "first": "2024-02-15 05:35:45.026321",
+      "last": "2024-02-15 05:37:22.465315"
+    },
+    "test": {
+      "rows": 293,
+      "positive": 20,
+      "first": "2024-02-15 05:37:26.164973",
+      "last": "2024-02-15 05:39:02.814410"
+    }
+  },
+  "metrics": {
+    "LightGBM": {
+      "accuracy": 0.8976109215017065,
+      "precision": 0.38636363636363635,
+      "recall": 0.85,
+      "F1": 0.53125,
+      "macro_F1": 0.7368893678160919,
+      "ROC_AUC": 0.9042124542124542,
+      "PR_AUC": 0.5630050032586916,
+      "threshold": 0.005573072287727621,
+      "confusion_matrix": [
+        [
+          246,
+          27
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 0.8668941979522184,
+      "precision": 0.1935483870967742,
+      "recall": 0.3,
+      "F1": 0.23529411764705882,
+      "macro_F1": 0.5811984606926883,
+      "ROC_AUC": 0.8464285714285713,
+      "PR_AUC": 0.24548494885809724,
+      "threshold": 0.08,
+      "confusion_matrix": [
+        [
+          248,
+          25
+        ],
+        [
+          14,
+          6
+        ]
+      ]
+    },
+    "RBF SVM": {
+      "accuracy": 0.8361774744027304,
+      "precision": 0.25862068965517243,
+      "recall": 0.75,
+      "F1": 0.38461538461538464,
+      "macro_F1": 0.6450635978195033,
+      "ROC_AUC": 0.8891941391941391,
+      "PR_AUC": 0.5135598671474425,
+      "threshold": -0.78123283870461,
+      "confusion_matrix": [
+        [
+          230,
+          43
+        ],
+        [
+          5,
+          15
+        ]
+      ]
+    },
+    "Isolation Forest": {
+      "accuracy": 0.42662116040955633,
+      "precision": 0.07471264367816093,
+      "recall": 0.65,
+      "F1": 0.13402061855670103,
+      "macro_F1": 0.3527245949926362,
+      "ROC_AUC": 0.5073260073260073,
+      "PR_AUC": 0.06687972263703316,
+      "threshold": 0.4713348070137064,
+      "confusion_matrix": [
+        [
+          112,
+          161
+        ],
+        [
+          7,
+          13
+        ]
+      ]
+    }
+  },
+  "sha256": {
+    "label": "2cb42f37b2cec0dffd04f1a3135b9a33c77e1c9305d6c567ccaf218281335f83",
+    "platform.csv": "4b17ed8082726385efd4c6cbf25e845264ecc8efb9817c2ae644ca511a81cae5"
+  }
+}

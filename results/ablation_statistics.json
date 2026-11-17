@@ -1,0 +1,203 @@
+{
+  "scope": "Exploratory secondary family of 18 variant/endpoint contrasts, conditional on five frozen seeds",
+  "contrasts": [
+    {
+      "variant": "A1_no_diagnosis",
+      "metric": "sla_burden",
+      "mean_variant_minus_full": -0.004506172839506172,
+      "CI95_hierarchical": [
+        -0.009991181657848324,
+        0.00034391534391534464
+      ],
+      "raw_p": 0.002603199399433283,
+      "Holm_p": 0.04425438979036581
+    },
+    {
+      "variant": "A2_no_shield",
+      "metric": "sla_burden",
+      "mean_variant_minus_full": -0.0003439153439153442,
+      "CI95_hierarchical": [
+        -0.007178571428571429,
+        0.0070548941798941785
+      ],
+      "raw_p": 0.7343185320434029,
+      "Holm_p": 1.0
+    },
+    {
+      "variant": "A4_predictive",
+      "metric": "sla_burden",
+      "mean_variant_minus_full": 0.0007671957671957682,
+      "CI95_hierarchical": [
+        -0.002063712522045855,
+        0.004180114638447971
+      ],
+      "raw_p": 0.6807796777630764,
+      "Holm_p": 1.0
+    },
+    {
+      "variant": "A5_no_topology",
+      "metric": "sla_burden",
+      "mean_variant_minus_full": -0.002989417989417989,
+      "CI95_hierarchical": [
+        -0.011710978835978837,
+        0.00427689594356261
+      ],
+      "raw_p": 0.3037409443409239,
+      "Holm_p": 1.0
+    },
+    {
+      "variant": "A6_no_SHAP",
+      "metric": "sla_burden",
+      "mean_variant_minus_full": 0.0,
+      "CI95_hierarchical": [
+        0.0,
+        0.0
+      ],
+      "raw_p": 1.0,
+      "Holm_p": 1.0
+    },
+    {
+      "variant": "Oracle",
+      "metric": "sla_burden",
+      "mean_variant_minus_full": 0.0003527336860670192,
+      "CI95_hierarchical": [
+        -0.00035295414462081207,
+        0.0012788800705467339
+      ],
+      "raw_p": 0.32698934959801507,
+      "Holm_p": 1.0
+    },
+    {
+      "variant": "A1_no_diagnosis",
+      "metric": "capped_unrecovered_seconds",
+      "mean_variant_minus_full": -0.2777777777777778,
+      "CI95_hierarchical": [
+        -0.6126984126984126,
+        0.028611111111110643
+      ],
+      "raw_p": 0.0036646104700631243,
+      "Holm_p": 0.05863376752100999
+    },
+    {
+      "variant": "A2_no_shield",
+      "metric": "capped_unrecovered_seconds",
+      "mean_variant_minus_full": 0.24126984126984127,
+      "CI95_hierarchical": [
+        -0.6206746031746032,
+        1.3126984126984125
+      ],
+      "raw_p": 0.5716356143381274,
+      "Holm_p": 1.0
+    },
+    {
+      "variant": "A4_predictive",
+      "metric": "capped_unrecovered_seconds",
+      "mean_variant_minus_full": -0.1904761904761904,
+      "CI95_hierarchical": [
+        -0.48734126984126985,
+        0.1794047619047615
+      ],
+      "raw_p": 0.0676274878864438,
+      "Holm_p": 0.8791573425237693
+    },
+    {
+      "variant": "A5_no_topology",
+      "metric": "capped_unrecovered_seconds",
+      "mean_variant_minus_full": -0.09047619047619045,
+      "CI95_hierarchical": [
+        -0.7095634920634921,
+        0.4857142857142859
+      ],
+      "raw_p": 0.6070682122918083,
+      "Holm_p": 1.0
+    },
+    {
+      "variant": "A6_no_SHAP",
+      "metric": "capped_unrecovered_seconds",
+      "mean_variant_minus_full": 0.0,
+      "CI95_hierarchical": [
+        0.0,
+        0.0
+      ],
+      "raw_p": 1.0,
+      "Holm_p": 1.0
+    },
+    {
+      "variant": "Oracle",
+      "metric": "capped_unrecovered_seconds",
+      "mean_variant_minus_full": 0.03809523809523811,
+      "CI95_hierarchical": [
+        -0.026984126984126965,
+        0.1603174603174604
+      ],
+      "raw_p": 0.4652088184521418,
+      "Holm_p": 1.0
+    },
+    {
+      "variant": "A1_no_diagnosis",
+      "metric": "harmful",
+      "mean_variant_minus_full": -0.034920634920634915,
+      "CI95_hierarchical": [
+        -0.11746031746031745,
+        0.03333333333333333
+      ],
+      "raw_p": 0.28846737281474955,
+      "Holm_p": 1.0
+    },
+    {
+      "variant": "A2_no_shield",
+      "metric": "harmful",
+      "mean_variant_minus_full": 0.1492063492063492,
+      "CI95_hierarchical": [
+        0.023809523809523808,
+        0.32857142857142857
+      ],
+      "raw_p": 0.008045237486561687,
+      "Holm_p": 0.1206785622984253
+    },
+    {
+      "variant": "A4_predictive",
+      "metric": "harmful",
+      "mean_variant_minus_full": 0.7158730158730161,
+      "CI95_hierarchical": [
+        0.47142857142857136,
+        1.0952380952380953
+      ],
+      "raw_p": 1.7235135468062213e-06,
+      "Holm_p": 3.102324384251198e-05
+    },
+    {
+      "variant": "A5_no_topology",
+      "metric": "harmful",
+      "mean_variant_minus_full": 0.06190476190476191,
+      "CI95_hierarchical": [
+        -0.08888888888888889,
+        0.21428571428571427
+      ],
+      "raw_p": 0.06061314001782782,
+      "Holm_p": 0.8485839602495895
+    },
+    {
+      "variant": "A6_no_SHAP",
+      "metric": "harmful",
+      "mean_variant_minus_full": 0.0,
+      "CI95_hierarchical": [
+        0.0,
+        0.0
+      ],
+      "raw_p": 1.0,
+      "Holm_p": 1.0
+    },
+    {
+      "variant": "Oracle",
+      "metric": "harmful",
+      "mean_variant_minus_full": -0.001587301587301589,
+      "CI95_hierarchical": [
+        -0.030158730158730163,
+        0.014285714285714285
+      ],
+      "raw_p": 0.4922069926558157,
+      "Holm_p": 1.0
+    }
+  ]
+}

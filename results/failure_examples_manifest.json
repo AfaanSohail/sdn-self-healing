@@ -1,0 +1,191 @@
+[
+  {
+    "category": "policy_or_capacity",
+    "block": "N20_concurrent_low_27",
+    "method": "Full_DQN",
+    "seed": 4718382,
+    "training_seed": 33,
+    "service_replay_matches": true,
+    "file_prefix": "policy_or_capacity_N20_concurrent_low_27_Full_DQN"
+  },
+  {
+    "category": "policy_or_capacity",
+    "block": "N20_concurrent_medium_15",
+    "method": "Full_DQN",
+    "seed": 3518419,
+    "training_seed": 11,
+    "service_replay_matches": true,
+    "file_prefix": "policy_or_capacity_N20_concurrent_medium_15_Full_DQN"
+  },
+  {
+    "category": "shield_or_policy",
+    "block": "N12_loss_medium_05",
+    "method": "Full_DQN",
+    "seed": 2512275,
+    "training_seed": 11,
+    "service_replay_matches": true,
+    "file_prefix": "shield_or_policy_N12_loss_medium_05_Full_DQN"
+  },
+  {
+    "category": "shield_or_policy",
+    "block": "N20_concurrent_low_00",
+    "method": "Full_DQN",
+    "seed": 2018301,
+    "training_seed": 11,
+    "service_replay_matches": true,
+    "file_prefix": "shield_or_policy_N20_concurrent_low_00_Full_DQN"
+  },
+  {
+    "category": "shield_or_policy",
+    "block": "N20_concurrent_low_07",
+    "method": "Full_DQN",
+    "seed": 2718322,
+    "training_seed": 33,
+    "service_replay_matches": true,
+    "file_prefix": "shield_or_policy_N20_concurrent_low_07_Full_DQN"
+  },
+  {
+    "category": "shield_or_policy",
+    "block": "N20_concurrent_low_21",
+    "method": "Full_DQN",
+    "seed": 4118364,
+    "training_seed": 22,
+    "service_replay_matches": true,
+    "file_prefix": "shield_or_policy_N20_concurrent_low_21_Full_DQN"
+  },
+  {
+    "category": "cascading",
+    "block": "N12_cascading_low_00",
+    "method": "Full_DQN",
+    "seed": 2024239,
+    "training_seed": 11,
+    "service_replay_matches": true,
+    "file_prefix": "cascading_N12_cascading_low_00_Full_DQN"
+  },
+  {
+    "category": "cascading",
+    "block": "N12_cascading_low_01",
+    "method": "Full_DQN",
+    "seed": 2124242,
+    "training_seed": 22,
+    "service_replay_matches": true,
+    "file_prefix": "cascading_N12_cascading_low_01_Full_DQN"
+  },
+  {
+    "category": "cascading",
+    "block": "N12_cascading_low_02",
+    "method": "Full_DQN",
+    "seed": 2224245,
+    "training_seed": 33,
+    "service_replay_matches": true,
+    "file_prefix": "cascading_N12_cascading_low_02_Full_DQN"
+  },
+  {
+    "category": "cascading",
+    "block": "N12_cascading_low_03",
+    "method": "Full_DQN",
+    "seed": 2324248,
+    "training_seed": 44,
+    "service_replay_matches": true,
+    "file_prefix": "cascading_N12_cascading_low_03_Full_DQN"
+  },
+  {
+    "category": "cascading",
+    "block": "N12_cascading_low_04",
+    "method": "Full_DQN",
+    "seed": 2424251,
+    "training_seed": 55,
+    "service_replay_matches": true,
+    "file_prefix": "cascading_N12_cascading_low_04_Full_DQN"
+  },
+  {
+    "category": "unseen_switch",
+    "block": "N12_switch_low_00",
+    "method": "Full_DQN",
+    "seed": 2027252,
+    "training_seed": 11,
+    "service_replay_matches": true,
+    "file_prefix": "unseen_switch_N12_switch_low_00_Full_DQN"
+  },
+  {
+    "category": "unseen_switch",
+    "block": "N12_switch_low_01",
+    "method": "Full_DQN",
+    "seed": 2127255,
+    "training_seed": 22,
+    "service_replay_matches": true,
+    "file_prefix": "unseen_switch_N12_switch_low_01_Full_DQN"
+  },
+  {
+    "category": "unseen_switch",
+    "block": "N12_switch_low_02",
+    "method": "Full_DQN",
+    "seed": 2227258,
+    "training_seed": 33,
+    "service_replay_matches": true,
+    "file_prefix": "unseen_switch_N12_switch_low_02_Full_DQN"
+  },
+  {
+    "category": "unseen_switch",
+    "block": "N12_switch_low_03",
+    "method": "Full_DQN",
+    "seed": 2327261,
+    "training_seed": 44,
+    "service_replay_matches": true,
+    "file_prefix": "unseen_switch_N12_switch_low_03_Full_DQN"
+  },
+  {
+    "category": "unseen_switch",
+    "block": "N12_switch_low_04",
+    "method": "Full_DQN",
+    "seed": 2427264,
+    "training_seed": 55,
+    "service_replay_matches": true,
+    "file_prefix": "unseen_switch_N12_switch_low_04_Full_DQN"
+  },
+  {
+    "category": "benign_false_trigger",
+    "block": "N12_burst_medium_15",
+    "method": "A4_predictive",
+    "seed": 3503266,
+    "training_seed": 11,
+    "service_replay_matches": true,
+    "file_prefix": "benign_false_trigger_N12_burst_medium_15_A4_predictive"
+  },
+  {
+    "category": "benign_false_trigger",
+    "block": "N12_burst_high_00",
+    "method": "A4_predictive",
+    "seed": 2003294,
+    "training_seed": 11,
+    "service_replay_matches": true,
+    "file_prefix": "benign_false_trigger_N12_burst_high_00_A4_predictive"
+  },
+  {
+    "category": "benign_false_trigger",
+    "block": "N12_burst_high_01",
+    "method": "A4_predictive",
+    "seed": 2103297,
+    "training_seed": 22,
+    "service_replay_matches": true,
+    "file_prefix": "benign_false_trigger_N12_burst_high_01_A4_predictive"
+  },
+  {
+    "category": "benign_false_trigger",
+    "block": "N12_burst_high_02",
+    "method": "A4_predictive",
+    "seed": 2203300,
+    "training_seed": 33,
+    "service_replay_matches": true,
+    "file_prefix": "benign_false_trigger_N12_burst_high_02_A4_predictive"
+  },
+  {
+    "category": "benign_false_trigger",
+    "block": "N12_burst_high_03",
+    "method": "A4_predictive",
+    "seed": 2303303,
+    "training_seed": 44,
+    "service_replay_matches": true,
+    "file_prefix": "benign_false_trigger_N12_burst_high_03_A4_predictive"
+  }
+]

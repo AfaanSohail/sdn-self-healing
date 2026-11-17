@@ -1,0 +1,146 @@
+{
+  "unit": "30 independent environmental schedule bundles, averaged equally over 7 fault x 3 load strata on N12",
+  "interpretation": "Tests condition on the five frozen trained models. Hierarchical intervals resample five model seed groups and six schedule bundles per group. Only five training replicates; p values do not establish population-wide algorithm superiority.",
+  "omnibus": {
+    "sla_burden": {
+      "statistic": 87.22362869198322,
+      "p": 5.117755927176842e-18,
+      "matched_schedule_blocks": 30,
+      "methods": [
+        "B1_rule",
+        "B2_greedy",
+        "B3_GA",
+        "B4_PSO",
+        "Full_DQN"
+      ],
+      "excludes_B0": true
+    },
+    "capped_unrecovered_seconds": {
+      "statistic": 57.20519480519487,
+      "p": 1.1204167652321824e-11,
+      "matched_schedule_blocks": 30,
+      "methods": [
+        "B1_rule",
+        "B2_greedy",
+        "B3_GA",
+        "B4_PSO",
+        "Full_DQN"
+      ],
+      "excludes_B0": true
+    }
+  },
+  "contrasts": [
+    {
+      "metric": "sla_burden",
+      "baseline": "B1_rule",
+      "mean_difference": 0.007821869488536156,
+      "median_difference": 0.004894179894179894,
+      "CI95_hierarchical": [
+        0.001966490299823634,
+        0.014744488536155202
+      ],
+      "raw_p": 3.1478703022003174e-07,
+      "rank_biserial_positive_means_full_worse": 0.9311827956989247,
+      "omnibus_rejects": true,
+      "Holm_p": 2.518296241760254e-06
+    },
+    {
+      "metric": "sla_burden",
+      "baseline": "B2_greedy",
+      "mean_difference": 0.008359788359788362,
+      "median_difference": 0.005555555555555554,
+      "CI95_hierarchical": [
+        0.0025485008818342146,
+        0.015202821869488537
+      ],
+      "raw_p": 5.213504226276105e-06,
+      "rank_biserial_positive_means_full_worse": 0.9526881720430107,
+      "omnibus_rejects": true,
+      "Holm_p": 3.649452958393273e-05
+    },
+    {
+      "metric": "sla_burden",
+      "baseline": "B3_GA",
+      "mean_difference": 0.008359788359788362,
+      "median_difference": 0.005555555555555554,
+      "CI95_hierarchical": [
+        0.0025485008818342146,
+        0.015202821869488537
+      ],
+      "raw_p": 5.213504226276105e-06,
+      "rank_biserial_positive_means_full_worse": 0.9526881720430107,
+      "omnibus_rejects": true,
+      "Holm_p": 3.649452958393273e-05
+    },
+    {
+      "metric": "sla_burden",
+      "baseline": "B4_PSO",
+      "mean_difference": 0.008359788359788362,
+      "median_difference": 0.005555555555555554,
+      "CI95_hierarchical": [
+        0.0025485008818342146,
+        0.015202821869488537
+      ],
+      "raw_p": 5.213504226276105e-06,
+      "rank_biserial_positive_means_full_worse": 0.9526881720430107,
+      "omnibus_rejects": true,
+      "Holm_p": 3.649452958393273e-05
+    },
+    {
+      "metric": "capped_unrecovered_seconds",
+      "baseline": "B1_rule",
+      "mean_difference": 0.5396825396825397,
+      "median_difference": 0.4761904761904763,
+      "CI95_hierarchical": [
+        0.09841269841269837,
+        1.0063492063492063
+      ],
+      "raw_p": 0.00017151640348303185,
+      "rank_biserial_positive_means_full_worse": 0.812807881773399,
+      "omnibus_rejects": true,
+      "Holm_p": 0.00034792347725064757
+    },
+    {
+      "metric": "capped_unrecovered_seconds",
+      "baseline": "B2_greedy",
+      "mean_difference": 0.63015873015873,
+      "median_difference": 0.5,
+      "CI95_hierarchical": [
+        0.1857142857142857,
+        1.1095634920634916
+      ],
+      "raw_p": 8.698086931266189e-05,
+      "rank_biserial_positive_means_full_worse": 0.8803418803418803,
+      "omnibus_rejects": true,
+      "Holm_p": 0.00034792347725064757
+    },
+    {
+      "metric": "capped_unrecovered_seconds",
+      "baseline": "B3_GA",
+      "mean_difference": 0.63015873015873,
+      "median_difference": 0.5,
+      "CI95_hierarchical": [
+        0.1857142857142857,
+        1.1095634920634916
+      ],
+      "raw_p": 8.698086931266189e-05,
+      "rank_biserial_positive_means_full_worse": 0.8803418803418803,
+      "omnibus_rejects": true,
+      "Holm_p": 0.00034792347725064757
+    },
+    {
+      "metric": "capped_unrecovered_seconds",
+      "baseline": "B4_PSO",
+      "mean_difference": 0.63015873015873,
+      "median_difference": 0.5,
+      "CI95_hierarchical": [
+        0.1857142857142857,
+        1.1095634920634916
+      ],
+      "raw_p": 8.698086931266189e-05,
+      "rank_biserial_positive_means_full_worse": 0.8803418803418803,
+      "omnibus_rejects": true,
+      "Holm_p": 0.00034792347725064757
+    }
+  ]
+}

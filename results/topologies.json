@@ -1,0 +1,546 @@
+{
+  "12": {
+    "nodes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 0,
+        "b": 9,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 0,
+        "b": 11,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 1,
+        "b": 10,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 2,
+        "b": 11,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 6,
+        "b": 9,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 7,
+        "b": 10,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 8,
+        "b": 9,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 8,
+        "b": 11,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 9,
+        "b": 10,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 10,
+        "b": 11,
+        "capacity": 100.0,
+        "delay": 2.0
+      }
+    ],
+    "flows": [
+      {
+        "fid": 0,
+        "src": 0,
+        "dst": 6,
+        "demand": 9.0,
+        "priority": 1
+      },
+      {
+        "fid": 1,
+        "src": 1,
+        "dst": 7,
+        "demand": 11.0,
+        "priority": 1
+      },
+      {
+        "fid": 2,
+        "src": 2,
+        "dst": 8,
+        "demand": 13.0,
+        "priority": 1
+      }
+    ],
+    "host_attachments": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 1,
+      "h3": 1,
+      "h4": 2,
+      "h5": 2,
+      "h6": 3,
+      "h7": 3,
+      "h8": 4,
+      "h9": 4,
+      "h10": 5,
+      "h11": 5,
+      "h12": 6,
+      "h13": 6,
+      "h14": 7,
+      "h15": 7,
+      "h16": 8,
+      "h17": 8,
+      "h18": 9,
+      "h19": 9,
+      "h20": 10,
+      "h21": 10,
+      "h22": 11,
+      "h23": 11
+    },
+    "nominal_delay_note": "Actual per-episode delays are seeded uniform 1 to 3 ms; definitions and seeds reproduce them exactly."
+  },
+  "20": {
+    "nodes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 0,
+        "b": 5,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 0,
+        "b": 15,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 0,
+        "b": 19,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 1,
+        "b": 6,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 1,
+        "b": 16,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 2,
+        "b": 7,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 2,
+        "b": 17,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 3,
+        "b": 8,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 3,
+        "b": 18,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 4,
+        "b": 9,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 4,
+        "b": 19,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 5,
+        "b": 10,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 6,
+        "b": 11,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 7,
+        "b": 12,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 8,
+        "b": 9,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 8,
+        "b": 13,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 9,
+        "b": 10,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 9,
+        "b": 14,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 10,
+        "b": 11,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 10,
+        "b": 15,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 11,
+        "b": 12,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 11,
+        "b": 16,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 12,
+        "b": 13,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 12,
+        "b": 17,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 13,
+        "b": 14,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 13,
+        "b": 18,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 14,
+        "b": 15,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 14,
+        "b": 19,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 15,
+        "b": 16,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 16,
+        "b": 17,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 17,
+        "b": 18,
+        "capacity": 100.0,
+        "delay": 2.0
+      },
+      {
+        "a": 18,
+        "b": 19,
+        "capacity": 100.0,
+        "delay": 2.0
+      }
+    ],
+    "flows": [
+      {
+        "fid": 0,
+        "src": 0,
+        "dst": 10,
+        "demand": 9.0,
+        "priority": 1
+      },
+      {
+        "fid": 1,
+        "src": 1,
+        "dst": 11,
+        "demand": 11.0,
+        "priority": 1
+      },
+      {
+        "fid": 2,
+        "src": 2,
+        "dst": 12,
+        "demand": 13.0,
+        "priority": 1
+      }
+    ],
+    "host_attachments": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 1,
+      "h3": 1,
+      "h4": 2,
+      "h5": 2,
+      "h6": 3,
+      "h7": 3,
+      "h8": 4,
+      "h9": 4,
+      "h10": 5,
+      "h11": 5,
+      "h12": 6,
+      "h13": 6,
+      "h14": 7,
+      "h15": 7,
+      "h16": 8,
+      "h17": 8,
+      "h18": 9,
+      "h19": 9,
+      "h20": 10,
+      "h21": 10,
+      "h22": 11,
+      "h23": 11,
+      "h24": 12,
+      "h25": 12,
+      "h26": 13,
+      "h27": 13,
+      "h28": 14,
+      "h29": 14,
+      "h30": 15,
+      "h31": 15,
+      "h32": 16,
+      "h33": 16,
+      "h34": 17,
+      "h35": 17,
+      "h36": 18,
+      "h37": 18,
+      "h38": 19,
+      "h39": 19
+    },
+    "nominal_delay_note": "Actual per-episode delays are seeded uniform 1 to 3 ms; definitions and seeds reproduce them exactly."
+  }
+}

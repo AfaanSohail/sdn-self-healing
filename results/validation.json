@@ -1,0 +1,195 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "expected_23760_episodes": true,
+    "unique_method_per_block": true,
+    "all_792_strata_have_30_blocks": true,
+    "six_blocks_per_training_seed": true,
+    "shared_environment_seed_per_block": true,
+    "full_180s_episode_in_source": true,
+    "700_episode_split": true,
+    "60_20_20_per_group": true,
+    "heldout_classes_excluded": true,
+    "Full_DQN_11_50000_steps": true,
+    "Full_DQN_22_50000_steps": true,
+    "Full_DQN_33_50000_steps": true,
+    "Full_DQN_44_50000_steps": true,
+    "Full_DQN_55_50000_steps": true,
+    "A1_no_diagnosis_11_50000_steps": true,
+    "A1_no_diagnosis_22_50000_steps": true,
+    "A1_no_diagnosis_33_50000_steps": true,
+    "A1_no_diagnosis_44_50000_steps": true,
+    "A1_no_diagnosis_55_50000_steps": true,
+    "A2_no_shield_11_50000_steps": true,
+    "A2_no_shield_22_50000_steps": true,
+    "A2_no_shield_33_50000_steps": true,
+    "A2_no_shield_44_50000_steps": true,
+    "A2_no_shield_55_50000_steps": true,
+    "A5_no_topology_11_50000_steps": true,
+    "A5_no_topology_22_50000_steps": true,
+    "A5_no_topology_33_50000_steps": true,
+    "A5_no_topology_44_50000_steps": true,
+    "A5_no_topology_55_50000_steps": true,
+    "A6_same_service_outcomes": true,
+    "B1_B2_are_distinct": true,
+    "shield_was_exercised": true,
+    "harm_verifier_was_exercised": true,
+    "normal_excluded_from_primary": true,
+    "infeasible_never_restored": true,
+    "valid_sla_burdens": true,
+    "generated_missingness_nonzero": true,
+    "generated_staleness_above_2s": true
+  },
+  "episodes": 23760,
+  "blocks": 1980,
+  "training": [
+    {
+      "variant": "Full_DQN",
+      "seed": 11,
+      "steps": 50000,
+      "selected_step": 10000,
+      "updates": 12484
+    },
+    {
+      "variant": "Full_DQN",
+      "seed": 22,
+      "steps": 50000,
+      "selected_step": 20000,
+      "updates": 12484
+    },
+    {
+      "variant": "Full_DQN",
+      "seed": 33,
+      "steps": 50000,
+      "selected_step": 10000,
+      "updates": 12484
+    },
+    {
+      "variant": "Full_DQN",
+      "seed": 44,
+      "steps": 50000,
+      "selected_step": 40000,
+      "updates": 12484
+    },
+    {
+      "variant": "Full_DQN",
+      "seed": 55,
+      "steps": 50000,
+      "selected_step": 10000,
+      "updates": 12484
+    },
+    {
+      "variant": "A1_no_diagnosis",
+      "seed": 11,
+      "steps": 50000,
+      "selected_step": 10000,
+      "updates": 12484
+    },
+    {
+      "variant": "A1_no_diagnosis",
+      "seed": 22,
+      "steps": 50000,
+      "selected_step": 10000,
+      "updates": 12484
+    },
+    {
+      "variant": "A1_no_diagnosis",
+      "seed": 33,
+      "steps": 50000,
+      "selected_step": 10000,
+      "updates": 12484
+    },
+    {
+      "variant": "A1_no_diagnosis",
+      "seed": 44,
+      "steps": 50000,
+      "selected_step": 10000,
+      "updates": 12484
+    },
+    {
+      "variant": "A1_no_diagnosis",
+      "seed": 55,
+      "steps": 50000,
+      "selected_step": 10000,
+      "updates": 12484
+    },
+    {
+      "variant": "A2_no_shield",
+      "seed": 11,
+      "steps": 50000,
+      "selected_step": 20000,
+      "updates": 12484
+    },
+    {
+      "variant": "A2_no_shield",
+      "seed": 22,
+      "steps": 50000,
+      "selected_step": 10000,
+      "updates": 12484
+    },
+    {
+      "variant": "A2_no_shield",
+      "seed": 33,
+      "steps": 50000,
+      "selected_step": 10000,
+      "updates": 12484
+    },
+    {
+      "variant": "A2_no_shield",
+      "seed": 44,
+      "steps": 50000,
+      "selected_step": 20000,
+      "updates": 12484
+    },
+    {
+      "variant": "A2_no_shield",
+      "seed": 55,
+      "steps": 50000,
+      "selected_step": 10000,
+      "updates": 12484
+    },
+    {
+      "variant": "A5_no_topology",
+      "seed": 11,
+      "steps": 50000,
+      "selected_step": 10000,
+      "updates": 12484
+    },
+    {
+      "variant": "A5_no_topology",
+      "seed": 22,
+      "steps": 50000,
+      "selected_step": 30000,
+      "updates": 12484
+    },
+    {
+      "variant": "A5_no_topology",
+      "seed": 33,
+      "steps": 50000,
+      "selected_step": 40000,
+      "updates": 12484
+    },
+    {
+      "variant": "A5_no_topology",
+      "seed": 44,
+      "steps": 50000,
+      "selected_step": 40000,
+      "updates": 12484
+    },
+    {
+      "variant": "A5_no_topology",
+      "seed": 55,
+      "steps": 50000,
+      "selected_step": 40000,
+      "updates": 12484
+    }
+  ],
+  "preprocessing": {
+    "mean_sampled_link_missing_fraction": 0.03725000098347664,
+    "max_sampled_age_s": 5.0
+  },
+  "notes": [
+    "Actual class feedback: none, as confirmed by student.",
+    "External benchmark is official SpotLight platform sample only."
+  ]
+}

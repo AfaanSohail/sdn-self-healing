@@ -1,0 +1,68 @@
+{
+  "environment": "Stochastic Python service KPI simulation; no Mininet/OVS/OpenFlow run",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0",
+    "torch": "2.15.0+cpu",
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "statsmodels": "0.15.0",
+    "python-docx": "1.2.0"
+  },
+  "total_evaluation_episodes": 23760,
+  "environment_blocks_per_stratum": 30,
+  "methods": [
+    "B0_no_recovery",
+    "B1_rule",
+    "B2_greedy",
+    "Full_DQN",
+    "A1_no_diagnosis",
+    "A2_no_shield",
+    "B3_GA",
+    "B4_PSO",
+    "A4_predictive",
+    "A5_no_topology",
+    "A6_no_SHAP",
+    "Oracle"
+  ],
+  "training_seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "dqn_steps_per_seed_per_variant": 50000,
+  "aggregate_dqn_environment_steps": 1000000,
+  "checkpoint_selection": "validation every 10000 steps; minimise (harm_count, SLA burden), retain earlier ties",
+  "primary_topology": 12,
+  "heldout_topology": 20,
+  "decision_interval_s": 1,
+  "fault_interval_s": [
+    60,
+    120
+  ],
+  "stable_samples": 5,
+  "parallel_workers": 8,
+  "execution_order": "seeded random method order within block; multiple blocks concurrently",
+  "run_history": "Initial grid aborted on endpoint-switch connectivity classification; all partial outputs discarded. Final grid rerun in full after NodeNotFound fix; trained weights and seeds unchanged.",
+  "class_feedback": "Teacher gave no specific feedback",
+  "primary_inference": "30 environmental bundles; five frozen model seeds; hierarchical resampling by seed group",
+  "preprocessing_deviation": "Long gaps retain explicitly stale values and age; no median fallback; no probability calibration",
+  "safety_deviation": "Proposal-before-shield instrumentation; one-step counterfactual verifier with rollback, not the original two-sample harm definition",
+  "public_dataset": "Official SpotLight platform sample, chronological split, 10-row gaps; not a RANGAN replication",
+  "unexecuted": [
+    "Mininet/OpenFlow emulation",
+    "Full public-dataset benchmark",
+    "5G-NIDD",
+    "Hardware/control-plane overhead",
+    "Formal power calculation",
+    "Noise-rate robustness sweeps",
+    "Probability/unknown calibration"
+  ]
+}
